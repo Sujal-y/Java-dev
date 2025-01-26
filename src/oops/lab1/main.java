@@ -1,4 +1,4 @@
-package src.oops;
+package src.oops.lab1;
 //Write a java program to add two numbers using the bitwise operator and check if the
 //output is an even or odd number. [Hint: use left shift and right shift bitwise operators].
 import java.util.Scanner;

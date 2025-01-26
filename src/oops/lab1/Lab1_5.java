@@ -1,4 +1,4 @@
-package src.oops;
+package src.oops.lab1;
 //Write a Java program to manage stock information for multiple products. The program
 //should store the product name, product price, and quantity in separate one-
 //dimensional arrays for n items. The user should be able to specify which products they
