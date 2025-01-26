@@ -5,7 +5,7 @@ package src.oops.lab1;
 //want to purchase and the desired quantity for each. Based on the user’s input, the
 //program should generate and display the total bill.
 import java.util.Scanner;
-public class Lab1_5 {
+public class prog5 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         //input for store
