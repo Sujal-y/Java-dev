@@ -19,6 +19,7 @@ public class prog1 {
         else {
             salary = hrate*hworked;
         }
+        System.out.println("Salary :- "+salary);
 
     }
 }
