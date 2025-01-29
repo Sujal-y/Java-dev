@@ -3,7 +3,7 @@ import java.util.Scanner;
 //Write a Java program to display non-diagonal elements and find their sum.
 //  [Hint: Non-Principal diagonal: The diagonal of a diagonal matrix from the top
 //right to the bottom left corner is called non-principal diagonal.]
-// taking all elements except the diagonals(principle and non principle
+// taking all elements except the diagonals(principle and non principle)
 public class prog4 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
