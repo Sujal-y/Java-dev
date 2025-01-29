@@ -8,15 +8,15 @@ public class prog1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("enter distance traveled:-");
-        int totaldist = scan.nextInt();
-        int price = 0;
+        int total_distance = scan.nextInt();
+        int price ;
 
-        if (totaldist <= 5) {
-            price = totaldist * 10;
-        } else if (totaldist <= 20) {
-            price = 5 * 10 + (totaldist - 5) * 8;
+        if (total_distance <= 5) {
+            price = total_distance * 10;
+        } else if (total_distance <= 20) {
+            price = 5 * 10 + (total_distance - 5) * 8;
         } else {
-            price = 5 * 10 + 15 * 8+ (totaldist-20)*5;
+            price = 5 * 10 + 15 * 8+ (total_distance-20)*5;
 
         }
         System.out.println(price);

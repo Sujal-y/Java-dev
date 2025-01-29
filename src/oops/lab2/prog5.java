@@ -9,7 +9,7 @@ public class prog5 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         //input number
-        System.out.println("enetr the number");
+        System.out.println("enter the number");
         int num = scan.nextInt();
         System.out.printf("Factorial of %d is %d",num,factorial(num)); //calling the function here
         scan.close();

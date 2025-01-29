@@ -1,8 +1,8 @@
 package src.oops.lab2;
 import java.util.Scanner;
-//Write a Java program to display non diagonal elements and find their sum.
-//  [Hint: Non Principal diagonal: The diagonal of a diagonal matrix from the top
-//right to the bottom left corner is called non principal diagonal.]
+//Write a Java program to display non-diagonal elements and find their sum.
+//  [Hint: Non-Principal diagonal: The diagonal of a diagonal matrix from the top
+//right to the bottom left corner is called non-principal diagonal.]
 // taking all elements except the diagonals(principle and non principle
 public class prog4 {
     public static void main(String[] args){
@@ -22,7 +22,6 @@ public class prog4 {
         }
         //printing out non diagonal elements
         int sum =0;
-        int counter =0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if((i+j)!=(n-1) && i!=j){ // principle diagonal elements condition i == j and non principle i+j != n-1
@@ -34,10 +33,5 @@ public class prog4 {
         }
         System.out.println();
         System.out.printf("sum = %d",sum);
-
-
-
-
-
     }
 }

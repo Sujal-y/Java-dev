@@ -8,13 +8,12 @@ package src.oops.lab2;
 //>= 201 10.00
 import java.util.Scanner;
 public class prog6 {
-    static double elec_bill(int[] week_usage){
-        int total_usage = total_consmption(week_usage);
-        double cost =0;
+    static double electricity_bill(int[] week_usage){
+        int total_usage = total_consumption(week_usage);
+        double cost;
 
 
         switch (total_usage/100){
-
             case (0): cost = total_usage*7;      //under 100
                         break;
             case (1): cost = 100*7+(total_usage-100)*8; //under 200
@@ -25,10 +24,10 @@ public class prog6 {
         }
         return cost;
     }
-    static int total_consmption(int[] arr){ //calculates total usage
+    static int total_consumption(int[] arr){ //calculates total usage
         int sum =0;
-        for (int i = 0; i < arr.length; i++) {
-            sum +=arr[i];
+        for (int j : arr) { //traverses through the array
+            sum += j;
         }
         return sum;
     }
@@ -39,7 +38,7 @@ public class prog6 {
         for (int i = 0; i < 7; i++) {
             arr[i] = scan.nextInt();
         }
-        System.out.println("Total consunmption:- "+ total_consmption(arr));
-        System.out.println("Total cost:- "+ elec_bill(arr));
+        System.out.println("Total consumption:- "+ total_consumption(arr));
+        System.out.println("Total cost:- "+ electricity_bill(arr));
     }
 }
