@@ -1,4 +1,4 @@
-package src.oops.lab2;
+package src.oops_labs.lab2;
 import java.util.Scanner;
 //For a given date of birth of a person, calculate the date of retirement by taking
 //years of service as input. (assume service periods as 60 years).

@@ -1,4 +1,4 @@
-package src.oops.lab2;
+package src.oops_labs.lab2;
 import java.util.Scanner;
 //A Taxi service offers a new service based on travel distance. Write a Java
 //program to calculate the total distance traveled by considering the following

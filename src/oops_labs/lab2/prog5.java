@@ -1,4 +1,4 @@
-package src.oops.lab2;
+package src.oops_labs.lab2;
 //Write a Java programs to print factorial of a given no recursively.
 import java.util.Scanner;
 public class prog5 {

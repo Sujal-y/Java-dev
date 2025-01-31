@@ -1,4 +1,4 @@
-package src.oops.lab2;
+package src.oops_labs.lab2;
 import java.util.Scanner;
 //Write a Java program to display non-diagonal elements and find their sum.
 //  [Hint: Non-Principal diagonal: The diagonal of a diagonal matrix from the top

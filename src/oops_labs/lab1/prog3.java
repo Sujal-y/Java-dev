@@ -1,4 +1,4 @@
-package src.oops.lab1;
+package src.oops_labs.lab1;
 //Write a Java program to execute the following statements. Observe and analyze the outputs.
 //        a. int x =10; b. double x = 10.5; c. double x=10.5;
 //double y = x; int y = x; int y = (int) x

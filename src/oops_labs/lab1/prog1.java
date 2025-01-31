@@ -1,4 +1,4 @@
-package src.oops.lab1;
+package src.oops_labs.lab1;
 //Write a Java program to accept the number of hours worked, hourly rate and calculates the salary for an employee
 //according to the following criteria: The company pays straight time for the first 40 hours worked by each employee and
 //time and a half for all hours worked in excess of 40 hours.

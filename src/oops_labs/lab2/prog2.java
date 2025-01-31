@@ -1,4 +1,4 @@
-package src.oops.lab2;
+package src.oops_labs.lab2;
 
 import java.util.Scanner;
 //For given a 9-digit registration number of a CSE student, identify the year of

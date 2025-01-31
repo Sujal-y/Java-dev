@@ -1,4 +1,4 @@
-package src.oops.lab1;
+package src.oops_labs.lab1;
 //Write a Java program to rotate the elements of an array to the right/left by a given number of steps.
 // The program should handle arrays of different sizes and should be able to rotate the array in both directions
 // (left and right).

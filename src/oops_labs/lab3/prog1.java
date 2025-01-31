@@ -1,4 +1,4 @@
-package src.oops.lab3;
+package src.oops_labs.lab3;
 //Define a Class STUDENT having following
 //Members: sname, marks_array, total, avg and provide the following methods:
 //a. assign(): to assign initial values to the STUDENT object

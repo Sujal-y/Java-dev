@@ -1,4 +1,4 @@
-package src.oops.lab3;
+package src.oops_labs.lab3;
 
 import java.util.Scanner;
 
