@@ -8,14 +8,16 @@ class Swapper{
         this.y =b;
     }
     int getX(){
+
         return this.x;
     }
     int getY(){
+
         return this.y;
     }
     void swap(){
         int temp = this.x;
-        this.x= y;
+        this.x= this.y;
         this.y = temp;
     }
 }
@@ -27,8 +29,8 @@ public class Swapper_demo  {
 
             System.out.println(obj.getX());
             System.out.println(obj.getY());
-            System.out.println("after swap");
 
+            System.out.println("after swap");
             obj.swap();
 
             System.out.println(obj.getX());
