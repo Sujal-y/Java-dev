@@ -6,19 +6,6 @@ import java.util.Scanner;
 //5/km.
 public class prog1 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("enter distance traveled:-");
-        int total_distance = scan.nextInt();
-        int price ;
-
-        if (total_distance <= 5) {
-            price = total_distance * 10;
-        } else if (total_distance <= 20) {
-            price = 5 * 10 + (total_distance - 5) * 8;
-        } else {
-            price = 5 * 10 + 15 * 8+ (total_distance-20)*5;
-
-        }
-        System.out.println(price);
+        //logic:- price = input
     }
 }

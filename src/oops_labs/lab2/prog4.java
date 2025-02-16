@@ -33,5 +33,6 @@ public class prog4 {
         }
         System.out.println();
         System.out.printf("sum = %d",sum);
+        scan.close();
     }
 }

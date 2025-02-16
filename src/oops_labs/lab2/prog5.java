@@ -2,7 +2,7 @@ package src.oops_labs.lab2;
 //Write a Java programs to print factorial of a given no recursively.
 import java.util.Scanner;
 public class prog5 {
-    static int factorial(int n){ //factorial using recursion
+    public static int factorial(int n){ //factorial using recursion
         if(n==0) return 1;
         return n*factorial(n-1);
     }

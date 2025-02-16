@@ -40,5 +40,6 @@ public class prog6 {
         }
         System.out.println("Total consumption:- "+ total_consumption(arr));
         System.out.println("Total cost:- "+ electricity_bill(arr));
+        scan.close();
     }
 }

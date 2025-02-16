@@ -11,6 +11,10 @@ public class prog2 {
             String reg_no;
             System.out.println("enter registration number");
             reg_no = scan.nextLine();
-            System.out.println("year of joining :- 20"+ reg_no.charAt(0)+ reg_no.charAt(1));
+            String year_of_join ="20";
+            year_of_join+=reg_no.charAt(0);
+            year_of_join += reg_no.charAt(1);
+            System.out.println("year of joining :- "+year_of_join);
+            scan.close();
         }
 }
