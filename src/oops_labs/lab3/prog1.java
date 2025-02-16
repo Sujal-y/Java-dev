@@ -19,7 +19,7 @@ class Student {
     void display(){
         System.out.println("name: - "+sname );
         for (int i = 0; i < marks_array.length; i++) {
-            System.out.print(i+" ");
+            System.out.print(marks_array[i]+" ");
         }
 
     }
@@ -50,8 +50,5 @@ public class prog1 {
         obj1.assign(name,arr);
         obj1.display();
         obj1.compute();
-
     }
-
-
 }

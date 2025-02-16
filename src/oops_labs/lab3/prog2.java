@@ -10,7 +10,7 @@ import java.util.Scanner;
 //Write a Java program to read data of N employee and compute and display net salary
 //of each employee Note: (DA = 52% of Basic, gross_Sal = Basic + DA; NET = 30% of
 //the gross salary)
-class EMLOYEE{
+class EMPLOYEE {
     Scanner scan = new Scanner(System.in);
     String[] ename = new String[10] ;
     int[] eid = new int[10];
@@ -25,7 +25,7 @@ class EMLOYEE{
 
         for (int i = 0; i < number_of_emp; i++) {
             scan.nextLine(); //clearing buffer
-            System.out.println("EMP NO:- "+ i);
+            System.out.println("EMP NO:- "+ (i+1));
             System.out.println("Name:- ");
             ename[i] = scan.nextLine();
             System.out.print("ID:- ");
@@ -36,7 +36,7 @@ class EMLOYEE{
     }
     void display(){
         for (int i = 0; i < number_of_emp; i++) {
-            System.out.println("EMP NO:- "+ i);
+            System.out.println("EMP NO:- "+ (i+1));
             System.out.println("Name:- "+ename[i]);
             System.out.println("ID:- "+eid[i]);
             System.out.println("Basic Salary:- "+basic[i]);
@@ -55,16 +55,14 @@ class EMLOYEE{
             System.out.println("name-" + ename[i]);
             System.out.println("net salary:- "+ Net_sal[i]);
         }
-        
-
+        scan.close();
     }
 }
 public class prog2 {
     public static void main(String[] args){
-        EMLOYEE obj1 = new EMLOYEE();
+        EMPLOYEE obj1 = new EMPLOYEE();
         obj1.read();
         obj1.display();
         obj1.compute_net_sal();
     }
 }
-

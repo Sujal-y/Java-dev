@@ -20,6 +20,7 @@ public class prog1 {
             salary = hrate*hworked;
         }
         System.out.println("Salary :- "+salary);
+        scan.close();
 
     }
 }

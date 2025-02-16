@@ -27,5 +27,6 @@ public class prog2 {
             else {
                 System.out.println("odd number");
             }
+            scan.close();
         }
 }

@@ -49,5 +49,6 @@ public class prog4 {
             System.out.print(arr[i]+ " ");
 
         }
+        scan.close();
     }
 }
