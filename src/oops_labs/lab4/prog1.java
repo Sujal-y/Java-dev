@@ -13,7 +13,7 @@ class STUDENT{
         this.name =name;
         this.rollno = rollno;
     }
-    // default
+    // default constructor
     STUDENT(){
         name = "default";
         rollno = 00000;

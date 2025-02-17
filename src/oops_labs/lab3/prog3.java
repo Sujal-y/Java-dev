@@ -53,7 +53,7 @@ class Mixer{
         //created result object which we will return
         Mixer result = new Mixer();
         //setting the arrays
-        int [] arr1 = arr;
+        int [] arr1 = this.arr;
         int [] arr2 = array2.arr;
         int [] arr3 = new int[arr1.length+ arr2.length];
 
@@ -79,10 +79,10 @@ class Mixer{
                     temp = arr3[i];
                     arr3[i] = arr3[j];
                     arr3[j] = temp;
+
                 }
             }
         }
-
 
         //remove duplicates
         int max = arr3.length;

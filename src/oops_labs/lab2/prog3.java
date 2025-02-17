@@ -20,6 +20,10 @@ public class prog3 {
 
         }
         System.out.println("date of retirement:- "+retire_day_month+retire_year);
-        scan.close();
+
+
+
+
+
     }
 }

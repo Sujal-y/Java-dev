@@ -7,11 +7,13 @@ class EMPLOYEE{
     int id ;
     double salary;
 
+    //parameterized constructor
     EMPLOYEE(String name, int id , double salary){
         this.name = name;
         this.id = id;
         this.salary = salary;
     }
+    //default constructor
     EMPLOYEE(){
         this.name = "default";
         this.id = 0000;
