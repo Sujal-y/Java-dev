@@ -13,24 +13,25 @@ class Student {
     int total = 0 , avg = 0;
 
     void assign(String name1 ,int[] arr){
-        sname = name1;
-        marks_array = arr;
+        this.sname = name1;
+        this.marks_array = arr;
+        compute();
     }
     void display(){
         System.out.println("name: - "+sname );
         for (int i = 0; i < marks_array.length; i++) {
             System.out.print(marks_array[i]+" ");
         }
-
-    }
-    void compute(){
-        for (int i = 0; i < marks_array.length; i++) {
-            total = total+marks_array[i];
-        }
-        avg = total/ marks_array.length;
         System.out.println();
         System.out.println("Total:- "+ total);
         System.out.print("AVG:- "+avg);
+
+    }
+    void compute(){
+        for (int j : marks_array) {
+            total = total + j;
+        }
+        avg = total/ marks_array.length;
     }
 
 }
@@ -49,6 +50,6 @@ public class prog1 {
         Student obj1 = new Student();
         obj1.assign(name,arr);
         obj1.display();
-        obj1.compute();
+
     }
 }

@@ -2,24 +2,32 @@ package src.oops_labs.lab3;
 
 import java.util.Scanner;
 
-//Define a class EMPLOYEE having following members: Ename, Eid, Basic, DA,
+//Define a class EMPLOYEE having the following members: Ename, Eid, Basic, DA,
 //Gross_Sal, Net_Sal and following methods:
 //a. read(): to read N employee details
 //b. display(): to display employee details
 //c. compute_net_sal(): to compute net salary
 //Write a Java program to read data of N employee and compute and display net salary
-//of each employee Note: (DA = 52% of Basic, gross_Sal = Basic + DA; NET = 30% of
+//of each employee Note: (DA = 52% of Basic, gross_Sal = Basic + DA; IT(income tax) = 30% of
 //the gross salary)
 class EMPLOYEE {
     Scanner scan = new Scanner(System.in);
-    String[] ename = new String[10] ;
-    int[] eid = new int[10];
-    double[] basic=new double[10], DA =new double[10] ,Gross_sal=new double[10],Net_sal=new double[10];
     int number_of_emp=0;
+    String[] ename;
+    int[] eid ;
+    double[] basic, DA,Gross_sal,Net_sal ;
 
-    void read(){// number of emp ,name , id ,basic salary
+    void read(){//it reads the input
         System.out.print("how many employees:- ");
         number_of_emp = scan.nextInt();
+
+        ename = new String[number_of_emp] ;
+        eid = new int[number_of_emp];
+        basic = new double[number_of_emp];
+        DA = new double[number_of_emp] ;
+        Gross_sal = new double[number_of_emp];
+        Net_sal = new double[number_of_emp];
+        
 
         System.out.println("Enter the details");
 
@@ -33,7 +41,9 @@ class EMPLOYEE {
             System.out.print("Basic Salary:- ");
             basic[i] = scan.nextDouble();
         }
+        scan.close();
     }
+
     void display(){
         for (int i = 0; i < number_of_emp; i++) {
             System.out.println("EMP NO:- "+ (i+1));
@@ -43,7 +53,7 @@ class EMPLOYEE {
         }
     }
     //DA = 52% of Basic, gross_Sal = Basic + DA; NET = 30% of
-    ////the gross salary)
+    //the gross salary
     void compute_net_sal(){
         for (int i = 0; i < number_of_emp; i++) {
             DA[i] = 0.52*basic[i];
@@ -55,8 +65,8 @@ class EMPLOYEE {
             System.out.println("name-" + ename[i]);
             System.out.println("net salary:- "+ Net_sal[i]);
         }
-        scan.close();
     }
+
 }
 public class prog2 {
     public static void main(String[] args){
