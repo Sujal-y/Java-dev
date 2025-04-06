@@ -69,6 +69,7 @@ public class prog1 {
         System.out.println("how many subjects");
         int n = scan.nextInt();
         STUDENT obj = new STUDENT(n) ;
+        
         obj.add_subjects(n);
         obj.compute();
 

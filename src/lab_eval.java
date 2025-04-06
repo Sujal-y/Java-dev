@@ -43,14 +43,6 @@ public class lab_eval {
     }
 
     public static void main(String[] args){
-//        myclass obj1 = new myclass();
-//        myclass obj2 = new myclass("Sujal");
-//        myclass obj3 = new myclass("Tejas",18,1111122222);
-//
-//        obj1.display();
-//        obj2.display();
-//        obj3.display();
-
         myclass[] array_of_obj;
         array_of_obj = new myclass[10];//array of size 10
 
