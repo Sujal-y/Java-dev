@@ -3,6 +3,12 @@ package src.oops_labs.lab6;
 import java.util.*;
 import java.util.Arrays;
 
+//Write a menu driven program to do the following
+//i. To check whether a string is palindrome or not
+//ii. Write the string in an alphabetical order
+//iii. Reverse the string
+//iv. Concatenate the original string and the reversed string
+
 class StringOperations{
 
     // Method to check if a string is palindrome
