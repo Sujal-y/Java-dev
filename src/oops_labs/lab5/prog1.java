@@ -41,13 +41,12 @@ class STUDENT{
             s[i] = new Subject(); // Initialize each Subject object
         }
         for (int i = 0; i < n; i++) {
+            scan.nextLine();//clearing buffer
             System.out.print("enter subject name:- ");
             String name = scan.nextLine();
             System.out.println("enter the marks:- ");
             int mark = scan.nextInt();
             s[i].assign(name,mark);
-
-
         }
     }
 
